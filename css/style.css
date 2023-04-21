@@ -1,0 +1,158 @@
+:root{--black:#000
+--blue:#602eed
+--orange:#602eed}
+/*header section start*/
+body{font-family: "Trirong", serif;}
+ul{padding: 0px; margin: 0px;}
+li{list-style: none;}
+a{font-family: "Trirong", serif;}
+p{font-family:"Trirong", serif; }
+h1{font-family:"Trirong", serif; }
+header{padding: 15px 0px;}
+.navbar ul{margin:auto;text-align: center;width: 100%;}
+.navbar li{display: inline-block;padding: 0px 20px;}
+.navbar li a{display: inline-block; color:var(--black) ;font-weight: 700;text-transform: uppercase;font-size: 10px;}
+.col-lg-7{text-align: center;}
+header .row{display: flex;justify-content:center;align-items: center;}
+header .navbar {margin: 0px;min-height: inherit;border: 0px;}
+.button_header{float: right;padding: 14px 0px;}
+.button_header a:last-child{background: var(--blue);}
+.navbar .button span a{color: #fff;}
+#box {
+    padding:5px;
+    width:200px;
+    z-index:10;
+    position:relative;  
+  }
+  #box form {
+   background:#006699;
+   padding:5px;
+   display:none;
+   position:absolute;
+   top:27px;
+  }
+  #button {
+    width:75px;
+    background:#006699;
+    color:#fff;
+    padding:3px 10px;
+    border:1px solid #006699;  
+    margin-bottom:15px;  
+    cursor:pointer;
+  }
+  input[type="submit"] {
+    background:none;
+    color:#fff;
+    border:none;
+    text-align:left;
+    cursor:pointer;
+  }
+/*header section end*/
+/*banner section start*/
+
+.banner{background: url(../logo/bg.webp); background-repeat: no-repeat; background-size: cover; background-position: center;}
+.banner_content span{color: orange;}
+.banner_content h1{color: white;font-size: 36px;}
+.banner_content p{color: white;}
+.banner .row{display: flex;align-items: center;justify-content: center;}
+
+    
+.brand{background: white;}
+.brand_img{margin-top: 0px;}
+.experience .row{display: flex;align-items: center;}
+.exp_content .span{    background-color: rgb(87, 90, 87);
+color: rgb(13, 13, 13); border-color: rgb(87, 88, 87);}
+/*about us */
+.about_us .row{display: flex; align-items: center;}
+.exp_content span{color: rgb(86, 26, 236);background: grey;border-radius: 35px;}
+.exp_content p{color: rgb(112, 47, 252);font-size: 16px; line-height: 20px;padding-top: 50px;}
+         
+.exp_content  p::before{content: "";position: absolute;border-left: 2px solid rgb(47, 92, 237);height: 14%;left: 0px;}
+
+/*achievent box start */
+.achievement{padding: 40px 0px;}
+.achievement_box{display: flex;}
+.achivment_img img{width: 90px;}
+.content_achivment h3{font-weight: 700;font-size: 40px;margin: 0px;padding: 0px;color: #000;}
+.content_achivment p{color: #000;font-size: 16px;}
+.achivment_img {margin-left: 10px;}
+
+/*subject section start */
+.subject {background: rgb(231, 229, 229);}
+.subject .row{margin: 50px 0px;display: flex;justify-content: center;}*/
+.subject_text span{color: rgb(71, 94, 244); background: grey;border-radius: 26px;font-size: 12px;}
+.subject_text h3{font-weight: 700;font-size: 40px;margin: 0px;padding: 0px;color: #000;}
+.subject_text p{color: #000;font-size: 16px;}
+.subject_text .text2 p::before{content: "";position: absolute;border-left: 2px solid rgb(252, 17, 162);height: 14%;left: 0px;}
+.button_list a{color:rgb(255, 255, 255);background: rgb(245, 5, 173);border-radius: 24px;font-size: 12px;}
+.box{border: 1px solid var(--vite);margin: 20px;border-radius: 5px;background: white;padding: 0px 5px;margin: 20px;}
+.box:nth-child(2n){transform: translateY(25px);} .box h3{font-size: 18px;font-weight: 700;text-transform: capitalize;} .box p{font-size: 12px;}
+.box .box_button a{color:rgb(5, 5, 5);font-size: 13px;text-decoration: none;}
+.box:hover{background: blue;transform: translateY(-30px);transition: 3s;color: white;}
+.box_button:hover{color: white;}*/
+
+
+
+/*cource list start*/
+/* Career CSS start */
+.career{background: var(--vite);}
+.career .row{margin: 50px 0px;display: flex;justify-content: center;align-items: center;}
+.career_but span{color:blue;background: #3788b70f;border-radius: 10px;text-transform: capitalize;}
+.career_but h2{font-size: 40px;font-weight: 900;color: black;text-transform: capitalize;}
+.career_list li{display: inline-block;padding: 15px;}
+.career_list span{color: rgb(53, 21, 235);}
+.career_list li a{text-decoration: none;color: var(--secondary);}
+.career_list li a:hover{color: var(--primary);}
+.main_career{background:#fbfbfb0f;border-radius: 5px;}
+.main_career span{color:blue;}
+.main_career .col-lg-4{padding: 5px;}
+.card_img div{position: absolute;color: white;background: var(--primary);top: 25px;left: 30px;border-radius: 2px;width: 30%;text-align: center;}
+.duration{display: flex;}
+.career_card{border: 1px solid var(--vite);border-radius: 5px;padding: 10px;background: var(--vite);position: relative;}
+.career_card img{width: 100%;}
+/*.career_card .stars{padding: 90px; margin-top: 10px;}*/
+.duration .time{padding: 0px 60px;}
+.duration a{color: grey;text-decoration: none;text-transform: capitalize;}
+.duration a:hover{color: var(--primary);}
+.card_heading h5{text-transform: capitalize;font-size: 14px;font-weight: 700;color: var(--secondary);padding: 5px;}
+.card_heading{border-bottom: 1px solid #80808033;}
+.rating .user{padding: 5px;}
+/* Career CSS end */
+
+.carrier_list{background: url(../logo/background.webp); background-repeat: no-repeat; background-size:cover; background-position: center;}
+.carrier_list span{color: aliceblue;border-radius: 10px; background: rgb(104, 104, 236);}
+.carrier_list h2{font-size: 40px;font-weight: 700;color:white;text-transform: capitalize;}
+.carrier_list h2 b{color: rgb(157, 5, 56);}
+.heading_list p{color: rgb(255, 255, 255);font-size: 16px;border-radius: 0px;background: none;}
+.carrier_list .row{display: flex;justify-content: center;align-items: center;}
+.form_section {background-color: rgb(241, 237, 237);border-radius: 1px solid rgb(240, 237, 237);justify-items: center;align-items: center;margin: 30px;padding:40px 25px ;}
+/*.carrier_list  h2:before{content: "";position: relative;border-bottom: -0.5px solid rgb(220, 8, 44);right: 10px;}*/
+.form_section button a{display: inline-block; color:var(--black) ;font-weight: 700;text-transform: uppercase;font-size: 10px; margin-bottom: 30px; line-height: 5px;}
+.form_section {margin-bottom: -80px;}
+.form_section h3{font-size: 30px;font-weight: 300;color:rgb(12, 12, 12);text-transform: capitalize;}
+.form_section input{background: rgb(225, 224, 224);border-radius: 1px solid rgb(232, 228, 228);margin: 3px;}
+.form_section input:last-child{padding: 10px;}
+
+/*pricing seection*/
+.price_head span{color:blue;background: gray;border-radius: 10px;}
+.price_head h2{font-size: 30px;font-weight: 700;color:black;text-transform: capitalize;}
+.price .row{text-align: center;justify-content: center;}
+.price {margin-top: 140px;}
+.price_box{background-color: rgb(236, 232, 232);border-radius: 2px;padding: 25px;margin: 30px;}
+.price_text{margin-left: 10px;}
+.price_text span{font-size: 40px;}
+.price_box {margin-left:10px;}
+
+/*cource list*/
+.course_list{background: rgb(212, 218, 245); background-repeat: no-repeat; background-size: cover; background-position: center;justify-content: center;}
+.col_text span{color: blue;background: rgb(196, 195, 195);border-radius: 10px;}
+.col_text h3{font-size: 30px;font-weight: 700;color:black;text-transform: capitalize;}
+.col_text p{color:black;font-size: 16px;border-radius: 0px;background: none;}
+.img_text p{color:black;font-size: 16px;border-radius: 2px;background: rgb(241, 238, 238);padding: 30px;}
+.col-lg-4 .course_img{margin-top: 20px;}
+.col-lg-4 .col_text{margin-top: 40px;}
+.course_img img{margin: -5px;}
+
+
+
+ 
